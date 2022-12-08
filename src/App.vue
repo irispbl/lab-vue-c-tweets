@@ -1,8 +1,6 @@
 <template>
-  <div class="app">
-    <div v-for="tweet in tweets">
+  <div class="app" v-for="tweet in tweets">
       <Tweet :tweet="tweet" />
-    </div>
   </div>
 </template>
 
